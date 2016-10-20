@@ -1,0 +1,22 @@
+{
+  "name": "chai_test",
+  "version": "1.0.0",
+  "description": "energy data visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtham8/Chai_Test.git"
+  },
+  "author": "Michelle Tham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtham8/Chai_Test/issues"
+  },
+  "homepage": "https://github.com/mtham8/Chai_Test#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
