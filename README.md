@@ -14,7 +14,7 @@ $ cd ..
 $ cd client
 $ bower install
 ```
-To view: 
+To view:
 
 1. via localhost:8080/#/
 ```
