@@ -16,7 +16,7 @@ $ cd client
 $ bower install
 ```
 
-3. To view data visuals
+3. To view data visuals via localhost:8080/#/
 ```
 $ cd server
 $ node server.js
