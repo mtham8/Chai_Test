@@ -18,8 +18,7 @@ $ bower install
 
 3. To view data visuals
 ```
-$ cd server
-$ node server.js
+$ npm start
 ```
 
 Cheers!
