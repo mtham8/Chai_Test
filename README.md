@@ -16,12 +16,6 @@ $ bower install
 ```
 To view:
 
-1. via localhost:8080/#/
-```
-$ npm start
-```
-
-2. via hosted
-[Check it out](https://mtham8.github.io/Chai_Test/)
+[Check it out](https://serene-plateau-68267.herokuapp.com/#/)
 
 Cheers!
