@@ -5,6 +5,7 @@ Grandma needs to understand data.
 To start:
 
 1. Clone the repo
+
 2. Install dependencies
 ```
 $ cd server
@@ -13,6 +14,7 @@ $ cd ..
 $ cd client
 $ bower install
 ```
+
 3. To view data visuals via localhost:8080/#/
 ```
 $ cd server
