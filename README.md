@@ -7,7 +7,6 @@ To start:
 1. Clone the repo
 
 2. Install dependencies
-
 ```
 $ cd server
 $ npm install
@@ -15,8 +14,9 @@ $ cd ..
 $ cd client
 $ bower install
 ```
+To view: 
 
-3. To view data visuals
+1. via localhost:8080/#/
 ```
 $ npm start
 ```
