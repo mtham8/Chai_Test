@@ -16,8 +16,11 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "d3": "^4.2.8",
-    "bootstrap": "^3.3.7",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "chart.js": "^2.3.0",
+    "moment": "^2.15.1"
+  },
+  "resolutions": {
+    "d3": "^3.4.4"
   }
 }

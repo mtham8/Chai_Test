@@ -1,0 +1,74 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #5b5b5b;
+}
+.dataChart {
+  width: 800px;
+  height: 400px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  flex-basis: 1;
+}
+
+ul {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+li {
+  width: auto;
+  padding: 20px;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.last {
+  border-right: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.number {
+  font-weight: bold;
+  text-align: center;
+  font-size: 38px;
+}
+
+.desc {
+  font-size: 12px;
+}
+
+.month {
+  color: #e58447;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.dayWatt {
+  padding-left: 0.5em
+}
+
+.heading {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.heading :nth-child(1) {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.heading :nth-child(2) {
+  color: #a8a8a8;
+}

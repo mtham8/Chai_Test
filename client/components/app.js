@@ -1,4 +1,4 @@
-angular.module('chai_test', ['ui.router']);
+angular.module('chai_test', ['ui.router', 'chart.js']);
 
 angular
 .module('chai_test')
@@ -11,5 +11,6 @@ angular
       url: '/',
       templateUrl: 'components/data-visual/data-visual.html',
       controller: 'DataVisualController'
-    })
+    });
+
 }]);

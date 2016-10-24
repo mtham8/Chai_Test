@@ -1,10 +1,9 @@
 angular
   .module('chai_test')
-  .factory('DataService', ['$q', function($q){
+  .factory('DataService', [function(){
     let factory = {};
 
     factory.get = () => {
-      let deferred = $q.defer();
       let data = [
           {
              "weekend_average":22127.5,
@@ -88,8 +87,7 @@ angular
              }
           }
         ];
-        deferred.resolve(data);
-        return deferred.promise;
+        return data;
       }
 
     return factory;
