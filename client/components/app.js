@@ -10,7 +10,8 @@ angular
     .state('data_visual', {
       url: '/',
       templateUrl: 'components/data-visual/data-visual.html',
-      controller: 'DataVisualController'
+      controller: 'DataVisualController',
+      controllerAs: 'vm'
     });
 
 }]);

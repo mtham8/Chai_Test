@@ -4,8 +4,6 @@ const bodyParser = require('body-parser');
 const path = require("path");
 
 app.use(express.static(__dirname + '/client'));
-app.use(bodyParser());
-app.use('/bower_components', express.static(__dirname + '/client/bower_components'));
 
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname + '/client'));
